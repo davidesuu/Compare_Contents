@@ -16,7 +16,7 @@ CFLAGS = -I./headers -Wall         # Flag pra procurar dentro da pasta headers s
 TARGET = compare$(EXT)
 
 SRC = main.c src/content.c src/csv.c src/name.c src/directory.c
-
+OUTPUT = output/result_cont.csv output/result_name.csv
 all: $(TARGET) 
 
 $(TARGET): $(SRC)
@@ -25,3 +25,4 @@ $(TARGET): $(SRC)
 
 clean:
 	rm -f $(TARGET)
+	rm -f $(OUTPUT)

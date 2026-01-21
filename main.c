@@ -43,7 +43,10 @@ int main()
             free(list);
             closedir(dir);
             break;
-
+        case 3:
+            printf("Saindo...\n");
+            closedir(dir);
+            break;
         default:
             printf("Opcao invalida. \n");
             break;
