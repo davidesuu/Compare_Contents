@@ -1,6 +1,6 @@
 # Comparador de Arquivos em um Diretorio
 
-# Trabalho para a terceira nota de LP1 - David Martins Costa
+### Trabalho para a terceira nota de LP1 - David Martins Costa
 
 Uma ferramenta desenvolvida em C para analisar e comparar o conteúdo de diretórios. O programa permite verificar arquivos por nome e conteúdo, gerando relatórios em formato CSV. Foi usado o hash_djb2 criado por Daniel J. Bernstein, para os shingles e uma Hashtable.
 
